@@ -4,7 +4,7 @@ Gli aggiornamenti li esegue da ARCH, AUR, CHAOTIC e dal mio repo (JDWOS) per il 
 
 Il JDWorld OS è cosi strutturato:
 * jdwos-repo è il repo, dei pacchetti compilati del JDWorld OS;
-* jdwos-stm è il repo, dell’interfaccia utente di JDWorld OS è gestito da un menù avanzato, multilivello e dinamico sviluppato in Python 3 utilizzando le librerie grafiche native PyQt6 (QWidgets)
+* [jdwos-stm](https://github.com/JDWorld/jdwos-stm) è il repo, dell’interfaccia utente di JDWorld OS è gestito da un menù avanzato, multilivello e dinamico sviluppato in Python 3 utilizzando le librerie grafiche native PyQt6 (QWidgets)
 
 Per il JDWorld OS - System Tray Menu (jdwos-stm), ho creato dei pacchetti estensione che aggiungono voci al menu(se il software è gia installato, aggiungerà solo le voci nel menu)
 * jdwos-ff-stm, installa fastfetch ed aggiunge 4 voci in menu, 3 relative alla configurazione custom(hardware, software, e hardware + software ma con meno dettagli) e 1 relativa alla configurazione predefinita(stock)
